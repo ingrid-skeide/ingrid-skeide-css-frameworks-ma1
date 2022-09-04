@@ -1,0 +1,24 @@
+.navbar {
+    text-transform: uppercase;
+    padding: 0 15px;
+
+    .navbar-brand {
+        font-size: $font-size-xl;
+        color: map-get($colours, black);
+    }
+
+    .navbar-toggler {
+        border: none;
+    }
+}
+
+
+
+.navbar-light .navbar-nav .nav-link {
+    color: map-get($colours, gray-med);
+}
+
+.navbar-light .navbar-nav .active > .nav-link {
+    color: map-get($colours, primary);
+}
+
